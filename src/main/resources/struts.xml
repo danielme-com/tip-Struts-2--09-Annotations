@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.custom.i18n.resources" value="i18n" />
+
+	 <!--  <package name="default" namespace="/" extends="struts-default">
+
+		<interceptors>
+
+			<interceptor-stack name="customStack">
+			
+				<interceptor-ref name="defaultStack" />
+
+				<interceptor-ref name="store">
+					<param name="operationMode">AUTOMATIC</param>
+				</interceptor-ref>
+				
+			</interceptor-stack>
+
+		</interceptors>
+
+		<default-interceptor-ref name="customStack" />
+
+		<action name="mainAction" class="com.danielme.tips.struts2.tip9.actions.MainAction" method="main">
+			<result name="success">/jsp/form.jsp</result>
+		</action>
+
+		<action name="oneAction" class="com.danielme.tips.struts2.tip9.actions.MainAction" method="resultOne">
+			<result name="success">/jsp/resultOne.jsp</result>
+		</action>
+
+		<action name="twoAction" class="com.danielme.tips.struts2.tip9.actions.MainAction" method="resultTwo">
+			<result name="success">/jsp/resultTwo.jsp</result>
+		</action>
+
+
+	</package>-->
+
+</struts>
