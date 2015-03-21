@@ -25,19 +25,19 @@ public class MainAction extends ActionSupport
 	
 	private static final long serialVersionUID = 4032858540744383204L;
 
-	@Action( value="mainAction", results= {@Result(name="success", type="dispatcher", location="/jsp/form.jsp") } )
+	@Action( value="mainAction", results= {@Result(name=SUCCESS, type="dispatcher", location="/jsp/form.jsp") } )
 	public String main()
 	{
 		return SUCCESS;
 	}	
 	
-	@Action( value="oneAction", results= {@Result(name="success", type="dispatcher", location="/jsp/resultOne.jsp") } )
+	@Action( value="oneAction", results= {@Result(name=SUCCESS, type="dispatcher", location="/jsp/resultOne.jsp") } )
 	public String resultOne()
 	{
 		return SUCCESS;
 	}	
 	
-	@Action( value="twoAction", results= {@Result(name="success", type="dispatcher", location="/jsp/resultTwo.jsp") } )
+	@Action( value="twoAction", results= {@Result(name=SUCCESS, type="dispatcher", location="/jsp/resultTwo.jsp") } )
 	public String resultTwo()
 	{
 		return SUCCESS;
